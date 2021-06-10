@@ -13,7 +13,6 @@ Probabilidade e Estatística Aplicada</b>
 - Igor Amon
 - Jorge Fernando
 - Samara Jaques
-<br/>
 ### <b>Dependencias instaladas</b>
 Instalar o [pip](https://pip.pypa.io/en/stable/installing/)
 - Pandas
