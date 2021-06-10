@@ -17,6 +17,7 @@ from tabela import Tabela
 
 def main():
     tb = Tabela('coinmetrics2.csv', 'utf-16')
+    calc = Calcular()
     
     op = -1
     os.system("cls||clear")
@@ -60,7 +61,6 @@ def main():
                 
                 arr.append(np.array(tb.pegar_lista(esc[i])))
             
-            calc = Calcular()
             coef = calc.coeficiente_correlacao(arr[0], arr[1])
             print("\nCoeficiente de correlacao: {}".format(coef))
             intervalo()
@@ -87,7 +87,6 @@ def main():
                 
                 arr.append(np.array(tb.pegar_lista(esc[i])))
             
-            calc = Calcular()
             [b, a] = calc.regressao_linear(arr[0], arr[1])
             print("\nCoeficente de Regressao Linear")
             print("a: {}".format(a))
@@ -116,7 +115,6 @@ def main():
                 
                 arr.append(np.array(tb.pegar_lista(esc[i])))
             
-            calc = Calcular()
             res = calc.regressao_multivariada(arr[0], arr[1], arr[2])
             print("\nTermo independente: {}".format(res[0]))
             print("Coeficiente da variavel 1: {}".format(res[1]))
