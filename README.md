@@ -6,7 +6,6 @@ Probabilidade e Estatística Aplicada</b>
 <br/>
 [enunciado do trabalho](https://docs.google.com/document/d/19WgeqUERF-zjugvQSPzpAaFXOj25QNDM78Zu67CLwf4/edit)
 <br/>
-<br/>
 ### <b>Integrantes do Grupo</b>
 - Bruno Luis
 - Camila Duarte
@@ -14,7 +13,6 @@ Probabilidade e Estatística Aplicada</b>
 - Igor Amon
 - Jorge Fernando
 - Samara Jaques
-<br/>
 <br/>
 ### <b>Dependencias instaladas</b>
 Instalar o [pip](https://pip.pypa.io/en/stable/installing/)
